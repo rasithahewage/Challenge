@@ -1,0 +1,2996 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:39787 (IPv4)
+Extension host agent listening on 39787
+
+[15:16:14] 
+
+
+
+
+[15:16:14] Extension host agent started.
+[15:16:14] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+[15:16:14] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+[15:16:15] [127.0.0.1][823ccb26][ManagementConnection] New connection established.
+[15:16:16] [127.0.0.1][3e15353a][ExtensionHostConnection] New connection established.
+[15:16:16] [127.0.0.1][3e15353a][ExtensionHostConnection] <1447> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[15:17:30] [127.0.0.1][823ccb26][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:17:30] [127.0.0.1][3e15353a][ExtensionHostConnection] <1447> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[15:17:30] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[15:17:30] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[15:18:13] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[15:18:13] Cancelling previous shutdown timeout
+[15:18:14] [127.0.0.1][f1159562][ManagementConnection] New connection established.
+[15:18:15] [127.0.0.1][cedc1d78][ExtensionHostConnection] New connection established.
+[15:18:15] [127.0.0.1][cedc1d78][ExtensionHostConnection] <1608> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:18:36] Error [CodeExpectedError]: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateIcon (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2735)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:18:36] Error [CodeExpectedError]: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateIcon (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2735)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+New EH opened, aborting shutdown
+[15:23:13] New EH opened, aborting shutdown
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 84,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 311,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 417,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 618,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 826,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 859,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 861,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1004,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1094,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1187,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1485,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1545,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1828,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 1859,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2070,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2153,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2276,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2390,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2432,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2467,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2513,
+  code: 127,
+  currentState: 0,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[IPC Library: Pty Host] xterm.js: Parsing error:  {
+  position: 2739,
+  code: 65533,
+  currentState: 1,
+  collect: 0,
+  params: {
+    maxLength: 32,
+    maxSubParamsLength: 32,
+    params: {
+      '0': 0,
+      '1': 34,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    length: 1,
+    _subParams: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _subParamsLength: 0,
+    _subParamsIdx: {
+      '0': 0,
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+      '6': 0,
+      '7': 0,
+      '8': 0,
+      '9': 0,
+      '10': 0,
+      '11': 0,
+      '12': 0,
+      '13': 0,
+      '14': 0,
+      '15': 0,
+      '16': 0,
+      '17': 0,
+      '18': 0,
+      '19': 0,
+      '20': 0,
+      '21': 0,
+      '22': 0,
+      '23': 0,
+      '24': 0,
+      '25': 0,
+      '26': 0,
+      '27': 0,
+      '28': 0,
+      '29': 0,
+      '30': 0,
+      '31': 0
+    },
+    _rejectDigits: false,
+    _rejectSubDigits: false,
+    _digitIsSub: false
+  },
+  abort: false
+}
+[15:29:47] [127.0.0.1][f1159562][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:30:17] [127.0.0.1][5d32f4dd][ManagementConnection] New connection established.
+[15:30:18] [127.0.0.1][639d7220][ExtensionHostConnection] New connection established.
+[15:30:18] [127.0.0.1][639d7220][ExtensionHostConnection] <11408> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[15:32:53] [127.0.0.1][d339307f][ManagementConnection] New connection established.
+[15:32:53] [127.0.0.1][1b4f67b1][ExtensionHostConnection] New connection established.
+[15:32:53] [127.0.0.1][1b4f67b1][ExtensionHostConnection] <12185> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:33:18] Error [CodeExpectedError]: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateIcon (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2735)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:33:18] Error [CodeExpectedError]: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateIcon (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2735)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:35:17] [127.0.0.1][cedc1d78][ExtensionHostConnection] <1608> Extension Host Process exited with code: 0, signal: null.

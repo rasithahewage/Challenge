@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "remote.SSH.remotePlatform": {
+        "ubuntu-pro": "linux",
+        "ec2-54-82-197-214.compute-1.amazonaws.com": "linux",
+        "ubuntu_test": "linux"
+    }
+}
