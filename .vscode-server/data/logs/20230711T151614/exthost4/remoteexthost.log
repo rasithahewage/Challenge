@@ -7,3 +7,5 @@
 2023-07-11 15:33:12.728 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2023-07-11 15:33:13.082 [info] Eager extensions activated
 2023-07-11 15:33:25.166 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-07-11 21:20:36.557 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-07-11 21:20:36.568 [info] Extension host with pid 12185 exiting with code 0
